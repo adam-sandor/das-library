@@ -24,7 +24,6 @@ to configure the different settings. It's important to set Datapath and Reposito
 ```shell
 export TENANT="adamsandor.svc.styra.com"  # the tenant URL of SaaS Styra DAS or an on-prem URL 
 export API_TOKEN="abcdefg"                # this is generated in the workspace admin settings
-# replace newlines in the key with \n
 ```
 
 Create a secret with the private key used to access Git. This is for access using SSH keys, alternatively
